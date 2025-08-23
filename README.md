@@ -2,19 +2,22 @@
 
 ⏰ Python Beep Clock
 
+
 A simple Python script that displays the current date and time in real-time and plays a beep sound every 5 seconds.
 
 📌 Features
 
-Continuously prints the current date and time.
 
-Plays a beep sound every 5 seconds.
+* Continuously prints the current date and time.
 
-Uses Python’s built-in libraries (datetime, time, and winsound).
+* Plays a beep sound every 5 seconds.
 
-Lightweight and easy to run on Windows.
+* Uses Python’s built-in libraries (datetime, time, and winsound).
+
+* Lightweight and easy to run on Windows.
 
 🛠 Requirements
+
 
 * Python 3.x
 
@@ -22,20 +25,23 @@ Lightweight and easy to run on Windows.
 
 🎵 How It Works
 
-The script checks the current second from the system clock.
 
-If the second is divisible by 5, a beep sound is played.
+* The script checks the current second from the system clock.
 
-The console keeps showing the current date and time every second.
+* If the second is divisible by 5, a beep sound is played.
+
+* The console keeps showing the current date and time every second.
 
 📂 Example Output
-Current Date and Time: 23-08-2025 16:45:01
-Current Date and Time: 23-08-2025 16:45:02
-Current Date and Time: 23-08-2025 16:45:03
-Current Date and Time: 23-08-2025 16:45:04
-Current Date and Time: 23-08-2025 16:45:05 [(Beep sound plays here)]
+
+* Current Date and Time: 23-08-2025 16:45:01
+* Current Date and Time: 23-08-2025 16:45:02
+* Current Date and Time: 23-08-2025 16:45:03
+* Current Date and Time: 23-08-2025 16:45:04
+* Current Date and Time: 23-08-2025 16:45:05 [(Beep sound plays here)]
 
 ⚠️ Notes
+
 
 * Works only on Windows because of the winsound module.
 
